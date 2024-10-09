@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="">
+        <label for="">Name:</label>
+        <input type="text">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password">
+        <br><br>
+        <label for="">Gender:</label>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <br><br>
+        <label for="">Hobbies:</label><br>
+        <input type="checkbox" name="reading" id="read">
+        <label for="read">Reading</label><br>
+        <input type="checkbox" name="taveling" id="travel">
+        <label for="travel">Traveling</label><br>
+        <input type="checkbox" name="cooking" id="cook">
+        <label for="cook">Cooking</label><br>
+        <input type="checkbox" name="sports" id="sport">
+        <label for="sport">Sports</label><br>
+        <br>
+        <label for="city">City:</label>
+        <select name="city" id="city">
+            <option value="none">Select your city</option>
+            <option value="Visakhapatnam">Visakhapatnam</option>
+            <option value="Delhi">New Delhi</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="chennai">Chennai</option>
+        </select>
+        <br><br>
+        <label for="DOB">Date of Birth</label>
+        <input type="date" name="DOB" id="DOB">
+        <br><br>
+        <label for="ph-no">Phone Number:</label>
+        <input type="tel" name="ph-no" id="ph-no" placeholder="10-digit number">
+        <br><br>
+        <label for="Address">Address:</label>
+        <br>
+        <textarea name="address" id="Address" placeholder="Enter your address" cols="50px" rows="5px"></textarea>
+        <br><br>
+        <button type="submit" onclick="window.open('./thankyou.html','_blank')">Submit</button>
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
